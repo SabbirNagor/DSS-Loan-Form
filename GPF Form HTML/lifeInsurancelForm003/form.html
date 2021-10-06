@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="icomoon/icofont.css">
+    <title>Login Form 003</title>
+</head>
+
+<body>
+    <section class="dss_login_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- <div class="modal fade" id="myModal"  tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-keyboard="false" data-backdrop="static"  > -----------class to stop modal------------- -->
+                        <div class=" modal-dialog modal-xl">
+                            <div class="modal-content">
+<!---------------------------------------- Modal Header -------------------------------------------------------->     
+                            <div class="modal-header p-0 ">
+                                <div class="">
+                                    <p class=" pt-2 pl-3 mb-0 text-success">ঋণ ব্যবস্থাপনা /অনলাইন এপ্লিকেশন</p>
+                                </div>
+                                <!-- <div>
+                                    <p><i class="far fa-window-close text-black-50 h4 pt-2 pl-2 mb-0 pr-2" data-dismiss="modal"></i></p> 
+                                </div> -->
+                            </div>
+<!---------------------------------------- Modal Body -------------------------------------------------------->                            
+                            <div class="modal-body p-0">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <form>
+                                                <div class="form-row">
+                                                    <div  class="form-group col-md-12 pr-3 border-bottom pb-2 ">
+                                                        <p class="mb-0">সংযুক্তি</p>
+                                                    </div>
+                                                    <div  class="form-group col-md-6 pr-3 ">
+                                                        <div class="form-group">
+                                                            <label for="exampleFormControlTextarea1">বরাবর </label>
+                                                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="বরাবর " rows="3"></textarea>
+                                                        </div>
+                                                    </div>
+                                                    <!---------------- Image place holder ----------- -->
+                                                    <div  class="form-group col-md-6 pr-3 mt-0 image__font ">
+                                                        <p class="image_font--size"><i class="fas fa-image"></i></p>
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                        <label for="inputPassword4">মাধ্যম </label>
+                                                        <input type="email" class="form-control input_shadow" id="inputPassword4" placeholder="Issue No">
+                                                    </div>
+                                                    <div class="form-group col-md-6  ">
+                                                        <label for="inputPassword4" class=" d-flex justify-content-between"> <p class="mb-0">ছবি সংযুক্ত করুন</p> <p class="mb-0">সর্বোচ্চ ইমেজ সাইজ: ১০০ কিলোবাইট</p> </label>
+                                                        <input type="email" class="form-control input_shadow" id="inputPassword4" placeholder="ছবি সংযুক্ত করুন">
+                                                    </div>
+                                                    <div  class="form-group col-md-12 pr-3 h6  font-weight-bold image_font--size">
+                                                        <p>মহোদয়, <br>
+                                                            বিনীত নিবেদন এই যে, আমি নিম্মস্বাক্ষরকারী সাধারণ ভবিষ্যত তহবিল হতে অগ্রিম উত্তোলন করতে ইচ্ছুক। নিম্নে এসংক্রান্ত প্রয়োজনীয় তথ্যাবলি মহোদয়ের সদয় বিবেকনার জন্য উপস্থাপন করলাম। </p>
+                                                    </div>
+                                                    <div  class="form-group col-md-6">
+                                                        <label for="inputEmail4"> আবেদনকারীর নাম:</label>
+                                                        <input type="email" class="form-control input_shadow" id="inputEmail4" placeholder="আবেদনকারীর নাম:">
+                                                    </div>
+                                                    <!--------- Calendar Icon -------->
+                                                    <div class="form-group col-md-6 calendar ">
+                                                        <label for="inputPassword4">জন্ম তারিখ:</label>
+                                                        <input type="email" class="form-control input_shadow" id="inputPassword4"placeholder="জন্ম তারিখ:">
+                                                        <span class=" icon-Calendar-icon calendar_icon"> </span>
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                        <label for="inputPassword4">সার্ভিস আইডি (প্রযোজ্য ক্ষেত্রে)</label>
+                                                        <input type="email" class="form-control input_shadow" id="inputPassword4" placeholder="সার্ভিস আইডি (প্রযোজ্য ক্ষেত্রে)">
+                                                    </div>
+                                                    <div class="form-group col-md-6 calendar ">
+                                                        <label for="inputPassword4">অবসর গ্রহণের তারিখ: </label>
+                                                        <input type="email" class="form-control input_shadow" id="inputPassword4"placeholder="অবসর গ্রহণের তারিখ:">
+                                                        <span class=" icon-Calendar-icon calendar_icon"> </span>
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                        <label for="inputEmail4"> পদবি:</label>
+                                                        <input type="email" class="form-control input_shadow" id="inputEmail4" placeholder="পদবি:">
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                        <label for="inputState">বেতন স্কেল</label>
+                                                        <select id="inputState" class="form-control">
+                                                            <option selected>বেতন স্কেল</option>
+                                                            <option>1</option>
+                                                            <option>2</option>
+                                                            <option>3</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                        <label for="inputPassword4">কর্মস্থল:</label>
+                                                        <input type="email" class="form-control input_shadow" id="inputPassword4" placeholder="কর্মস্থল:">
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                        <label for="inputPassword4">বর্তমান মূল বেতন:</label>
+                                                        <input type="email" class="form-control input_shadow" id="inputPassword4" placeholder="বর্তমান মূল বেতন:">
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                        <label for="inputPassword4">মোবাইল নম্বর:</label>
+                                                        <input type="email" class="form-control input_shadow" id="inputPassword4" placeholder="মোবাইল নম্বর:">
+                                                    </div>
+                                                    <div class="form-group col-md-6 calendar ">
+                                                        <label for="inputPassword4">চাকুরিতে যোগদানের তারিখ: </label>
+                                                        <input type="email" class="form-control input_shadow" id="inputPassword4"placeholder="চাকুরিতে যোগদানের তারিখ:">
+                                                        <span class=" icon-Calendar-icon calendar_icon"> </span>
+                                                    </div>
+                                                    <div  class="form-group col-md-12 h6  font-weight-bold  ">
+                                                        <p class="">সাধারণ ভবিষ্যত তহবিল সম্পর্কিত তথ্য:</p>
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                        <label for="inputState">অগ্রিমের উদ্দেশ্য: </label>
+                                                        <select id="inputState" class="form-control">
+                                                            <option selected>আবেদনকারীর নাম</option>
+                                                            <option>1</option>
+                                                            <option>2</option>
+                                                            <option>3</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="form-group col-md-6 ">
+                                                            <label for="inputEmail4">চাহিত অর্থের পরিমান:</label>
+                                                            <input type="email" class="form-control input_shadow" id="inputEmail4" placeholder="চাহিত অর্থের পরিমান :">
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                            <label for="inputPassword4">অগ্রিমের অর্থ সুদসহ কিস্তিতে পরিশোধ করতে ইচ্ছুক?:</label>
+                                                            <input type="email" class="form-control input_shadow" id="inputPassword4" placeholder="অগ্রিমের অর্থ সুদসহ কিস্তিতে পরিশোধ করতে ইচ্ছুক?">
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                            <label for="inputPassword4">সাধারণ ভবিষ্যত তহবিল হিসাব নম্বর:</label>
+                                                            <input type="email" class="form-control input_shadow" id="inputPassword4" placeholder="সাধারণ ভবিষ্যত তহবিল হিসাব নম্বর:">
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                            <label for="inputPassword4">৩০শে জুন  </label>
+                                                            <input type="email" class="form-control input_shadow" id="inputPassword4" placeholder="তারিখ">
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                            <label for="inputPassword4">তারিখ পর্যন্ত সাধারণ ভবিষ্যত তহবিলে জমাকৃত অর্থের পরিমান: </label>
+                                                            <input type="email" class="form-control input_shadow" id="inputPassword4" placeholder="তারিখ">
+                                                    </div>
+                                                    <div  class="form-group col-md-12 h6  font-weight-bold ">
+                                                        <p>সাধারণ ভবিষ্যত তহবিল হিসাব নম্বর: </p>
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                        <label for="inputState">ক) পূর্বে অগ্রিম গ্রহণ করেছেন কি? হ্যাঁ /না </label>
+                                                        <select id="inputState" class="form-control">
+                                                            <option selected>না</option>
+                                                            <option>1</option>
+                                                            <option>2</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="form-group col-md-6 calendar ">
+                                                        <label for="inputPassword4">গ) সুদসহ শেষ কিস্তি পরিশোধের তারিখ </label>
+                                                        <input type="email" class="form-control input_shadow" id="inputPassword4"placeholder="তারিখ">
+                                                        <span class=" icon-Calendar-icon calendar_icon"> </span>
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                        <label for="inputState">খ) অগ্রিমের অর্থ পরিশোধ করেছেন কি? </label>
+                                                        <select id="inputState" class="form-control">
+                                                            <option selected>হ্যাঁ</option>
+                                                            <option>1</option>
+                                                            <option>2</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                        <label for="inputPassword4"> ঘ) কত কিস্তি প্রদেয় আছে ?</label>
+                                                        <input type="email" class="form-control input_shadow" id="inputPassword4" placeholder="">
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                        <label for="inputState">সাধারণ ভবিষ্যত তহবিলের জমার উপর সুদ প্রদেয় কি? </label>
+                                                        <select id="inputState" class="form-control">
+                                                            <option selected>হ্যাঁ</option>
+                                                            <option>1</option>
+                                                            <option>2</option>
+                                                        </select>
+                                                    </div>
+                                                    <div  class="form-group col-md-12 h6 font-weight-bold  ">
+                                                        <p>এমতাবস্তায়, আমাকে সাধারণ ভবিষ্যত তহবিল হতে অগ্রিম উত্তোলনের অনুমতি প্রদানের প্রয়োজনীয় ব্যবস্থা গ্রহণের জন্য অনুরোধ করছি।  </p>
+                                                    </div>
+                                                    <!-- here is a column that is empty  -->
+                                                    <div  class="form-group col-md-6  ">
+                                                    </div>
+                                                    <div  class="form-group col-md-3 ">
+                                                        <div class="form-group">
+                                                            <label for="exampleFormControlTextarea1"></label>
+                                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group col-md-6 calendar ">
+                                                        <label for="inputPassword4"> তারিখ: </label>
+                                                        <input type="email" class="form-control input_shadow" id="inputPassword4"placeholder="তারিখ:">
+                                                        <span class=" icon-Calendar-icon calendar_icon"> </span>
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                        <label for="inputPassword4" class=" d-flex justify-content-between"> <p class="mb-0">ছবি সংযুক্ত করুন</p> <p class="mb-0">সর্বোচ্চ ইমেজ সাইজ: ১০০ কিলোবাইট</p> </label>
+                                                        <!-- <label for="inputPassword4"><span>signature</span> <span>highest 100 kb</span></label> -->
+                                                        <input type="email" class="form-control input_shadow" id="inputPassword4" placeholder="Basic Pay">
+                                                    </div>
+                                                    <div  class="form-group col-md-12 h6  font-weight-bold  ">
+                                                        <p> সংযুক্তি: প্রতিটি ফাইল এর সর্বোচ্চ সাইজ: ৫০০ কিলোবাইট </p>
+                                                    </div>
+                                                    <!-- -------- Check Box -------- -->
+                                                    <div class="form-group col-md-6  ">
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                                            <label class="form-check-label" for="inlineCheckbox1">১: উর্ধতন কর্তৃপক্ষের সুপারিশ*</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group col-md-3">
+                                                        <label for="inputPassword4"> </label>
+                                                        <input type="email" class="form-control input_shadow" id="inputPassword4" placeholder="সংযুক্ত করুন">
+                                                    </div>
+                                                    <div class="form-group col-md-6  ">
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                                            <label class="form-check-label" for="inlineCheckbox1">২:হিসাবরক্ষণ কর্মকর্তা কর্তৃক সাধারণ ভবিষ্য তহবিলের প্রত্তয়নপত্র</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group col-md-3">
+                                                        <label for="inputPassword4"> </label>
+                                                        <input type="email" class="form-control input_shadow" id="inputPassword4" placeholder="সংযুক্ত করুন">
+                                                    </div>
+                                                    <div  class="form-group col-md-12 h6  font-weight-bold  ">
+                                                        <p>আবেদনকারীর তথ্য </p>
+                                                    </div>
+                                                    <div class="form-group col-md-6 calendar ">
+                                                        <label for="inputPassword4"> জন্ম তারিখ (দিন-মাস-বছর)* </label>
+                                                        <input type="email" class="form-control input_shadow" id="inputPassword4"placeholder="জন্ম তারিখ (দিন-মাস-বছর)">
+                                                        <span class=" icon-Calendar-icon calendar_icon"> </span>
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                        <label for="inputPassword4"> ইমেইল</label>
+                                                        <input type="email" class="form-control input_shadow" id="inputPassword4" placeholder="ইমেইল">
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                        <label for="inputPassword4">মোবাইল নম্বর* </label>
+                                                        <input type="email" class="form-control input_shadow" id="inputPassword4" placeholder="মোবাইল নম্বর ">
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                        <label for="inputPassword4">জাতীয় পরিচয়পত্র নম্বর</label>
+                                                        <input type="email" class="form-control input_shadow" id="inputPassword4" placeholder="জাতীয় পরিচয়পত্র নম্বর">
+                                                    </div>
+                                                    <div  class="form-group col-md-12  h6  font-weight-bold ">
+                                                        <p>অফিস বাছাই করুন </p>
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                        <label for="inputState">অফিস বাছাই করুন </label>
+                                                        <select id="inputState" class="form-control">
+                                                            <option selected>Choose...</option>
+                                                            <option>1</option>
+                                                            <option>2</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                        <label for="inputState">বাছাই করুন </label>
+                                                        <select id="inputState" class="form-control">
+                                                            <option selected>বাছাই করুন</option>
+                                                            <option>1</option>
+                                                            <option>2</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="form-group col-md-6 h6  font-weight-bold ">
+                                                        <label for="inputPassword4"> আপনার তথ্যের নিরাপত্তার স্বার্থে নিচের সংখ্যা দুটির যোগফল লিখুন।*<br> ০ + ১ = </label>
+                                                        <input type="email" class="form-control input_shadow" id="inputPassword4" placeholder=" ">
+                                                    </div>
+                                                            
+                                                </div>
+<!---------------------------------------- Modal Footer-------------------------------------------------------->                              
+                            <div class="modal-footer">
+                                <div class="row m-auto">
+                                    <div class="d-flex justify-content-center footer_button">
+                                        <button type="button" class="btn btn-outline-secondary mr-1">সংরক্ষন করুন</button>
+                                        <button type="button" class="btn btn-outline-secondary ml-1 ">পরিবর্তী ধাপ <i class="fas fa-arrow-right text-success "></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- <a href="" data-toggle="modal" data-target="#myModal">open modal</a> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
